@@ -109,7 +109,7 @@ root = tk.Tk()
 root.geometry("300x300")
 root.title("Login Page")
 
-db = mysql.connector.connect(host ="localhost", user='root', password='sourya', db='PROJECT')
+db = mysql.connector.connect(host ="localhost", user='root', password='', db='PROJECT')
 lblfrstrow = tk.Label(root, text ="Username -", )
 lblfrstrow.place(x = 50, y = 20)
 
